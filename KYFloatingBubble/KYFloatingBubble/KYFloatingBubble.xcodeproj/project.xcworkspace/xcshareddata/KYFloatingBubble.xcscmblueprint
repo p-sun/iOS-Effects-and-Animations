@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1470076C717C43D36140424FCEA0FAC72A3B1938",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1470076C717C43D36140424FCEA0FAC72A3B1938" : 9223372036854775807,
+    "1F23DDD15F0FD0C9F68CD93F91FE268F8CAE4638" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "78B288B5-F8A0-4972-8C99-894D702400A7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1470076C717C43D36140424FCEA0FAC72A3B1938" : "KYFloatingBubble\/",
+    "1F23DDD15F0FD0C9F68CD93F91FE268F8CAE4638" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KYFloatingBubble",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "KYFloatingBubble\/KYFloatingBubble.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KittenYang\/KYFloatingBubble",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1470076C717C43D36140424FCEA0FAC72A3B1938"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:p-sun\/iOS-Effects-and-Animations.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F23DDD15F0FD0C9F68CD93F91FE268F8CAE4638"
+    }
+  ]
+}
