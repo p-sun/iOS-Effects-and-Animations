@@ -9,7 +9,7 @@
 import UIKit
 
 public let kDefaultFlakeFileName               = "snowflake"
-public let kDefaultFlakesCount                 = 200
+public let kDefaultFlakesCount                 = 100
 public let kDefaultFlakeWidth: Float           = 40.0
 public let kDefaultFlakeHeight: Float          = 46.0
 public let kDefaultMinimumSize: Float          = 0.4
@@ -48,6 +48,8 @@ open class SnowFallingView: UIView {
         super.init(coder: aDecoder)
     }
     
+    /** Create an array of snow flakes, and set each flake's frame to a randomized position, width, and height.
+     */
     open func createFlakes() {
         flakesArray = [UIImageView]()
         let flakeImage: UIImage = UIImage(named: flakeFileName!)!
@@ -80,28 +82,32 @@ open class SnowFallingView: UIView {
         }
         backgroundColor = UIColor.clear
         
-        let rotAnimation: CABasicAnimation = CABasicAnimation(keyPath: "transform.rotation.y")
+        let rotAnimation = CABasicAnimation(keyPath: "transform.rotation.y")
         rotAnimation.repeatCount = Float.infinity
         rotAnimation.autoreverses = false
         rotAnimation.toValue = 6.28318531
         
-        let theAnimation: CABasicAnimation = CABasicAnimation(keyPath: "transform.translation.y")
-        theAnimation.repeatCount = Float.infinity
-        theAnimation.autoreverses = false
+        let moveAnimation = CABasicAnimation(keyPath: "transform.translation.y")
+        moveAnimation.repeatCount = Float.infinity
+        moveAnimation.autoreverses = false
         
-        for v: UIImageView in flakesArray! {
-            var p: CGPoint = v.center
-            let startypos = p.y
-            let endypos = frame.size.height
-            p.y = endypos
-            v.center = p
-            let timeInterval: Float = (animationDurationMax! - animationDurationMin!) * Float(arc4random()) / Float(RAND_MAX)
-            theAnimation.duration = CFTimeInterval(timeInterval + animationDurationMin!)
-            theAnimation.fromValue = -startypos
-            v.layer.add(theAnimation, forKey: "transform.translation.y")
+        // Note that if you set kDefaultFlakesCount to 20, you can see each snowflake repeat its animation with the same size, speed, and starting position.
+        for flake: UIImageView in flakesArray! {
+            // Translation
+            let startPointY = flake.center.y
+            moveAnimation.fromValue = -startPointY
+
+            let endPointY = frame.size.height
+            flake.center.y = endPointY
             
+            let timeInterval: Float = (animationDurationMax! - animationDurationMin!) * Float(arc4random()) / Float(RAND_MAX)
+            moveAnimation.duration = CFTimeInterval(timeInterval + animationDurationMin!)
+            
+            flake.layer.add(moveAnimation, forKey: "transform.translation.y")
+            
+            // Rotation
             rotAnimation.duration = CFTimeInterval(timeInterval)
-            v.layer.add(rotAnimation, forKey: "transform.rotation.y")
+            flake.layer.add(rotAnimation, forKey: "transform.rotation.y")
         }
     }
     

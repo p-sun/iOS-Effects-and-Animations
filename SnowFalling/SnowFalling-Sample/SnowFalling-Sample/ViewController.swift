@@ -28,7 +28,6 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
         
         sfv = SnowFallingView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width * 2, height: view.frame.size.height * 2))
-        sfv?.flakesCount = 100
         view.addSubview(sfv!)
         sfv?.startSnow()
         
