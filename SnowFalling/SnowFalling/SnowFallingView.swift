@@ -51,7 +51,7 @@ open class SnowFallingView: UIView {
     open func createFlakes() {
         flakesArray = [UIImageView]()
         let flakeImage: UIImage = UIImage(named: flakeFileName!)!
-        for i: Int in 0 ..< flakesCount! {
+        for _ in 0 ..< flakesCount! {
             var vz: Float = 1.0 * Float(arc4random()) / Float(RAND_MAX)
             vz = vz < flakeMinimumSize! ? flakeMinimumSize! : vz
             vz = vz > flakeMaximumSize! ? flakeMaximumSize! : vz
