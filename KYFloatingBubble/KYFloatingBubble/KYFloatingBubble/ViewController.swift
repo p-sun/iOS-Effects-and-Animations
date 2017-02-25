@@ -41,18 +41,18 @@ class ViewController: UIViewController {
                 pathAnimation.duration = 8.0
             }
         
-            let circleContainer = bt!.frame.insetBy(dx: bt!.frame.size.width/2-3, dy: bt!.frame.size.width/2-3)
+//            let circleContainer = bt!.frame.insetBy(dx: bt!.frame.size.width/2-3, dy: bt!.frame.size.width/2-3)
             let curvedPath = CGMutablePath()
-//            let circleContainer = CGRect(x: 150, y: 200, width: 100, height: 100) // Make an big square path for circles to follow
+            let circleContainer = CGRect(x: 150, y: 200, width: 100, height: 100) // Make an big square path for circles to follow
             curvedPath.addRect(circleContainer)
             pathAnimation.path = curvedPath
             bt?.layer.add(pathAnimation, forKey: "myCircleAnimation")
             
             // View the circleContainer
-//            let viewCircleContainer = UIView()
-//            viewCircleContainer.frame = circleContainer
-//            viewCircleContainer.layer.borderWidth = 2
-//            view.addSubview(viewCircleContainer)
+            let viewCircleContainer = UIView()
+            viewCircleContainer.frame = circleContainer
+            viewCircleContainer.layer.borderWidth = 2
+            view.addSubview(viewCircleContainer)
             
             //2.X方向上的缩放 scale in X
             let scaleX = CAKeyframeAnimation(keyPath:"transform.scale.x")
