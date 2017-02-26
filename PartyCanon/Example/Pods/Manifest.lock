@@ -1,5 +1,5 @@
 PODS:
-  - PartyCanon (0.1.0)
+  - PartyCanon (0.1.1)
 
 DEPENDENCIES:
   - PartyCanon (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PartyCanon: 503015d4312b5963ba4bbca6192917c9ade3042d
+  PartyCanon: 67ca5171d22bd62a63e84d7da543718791eb6caf
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 669aafca0c2596ea126caaed077a117e7a1a73d8
+
+COCOAPODS: 1.2.0

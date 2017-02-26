@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Yzy-Ke-0ib">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Yzy-Ke-0ib">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -33,18 +37,18 @@
                         <viewControllerLayoutGuide type="bottom" id="A7F-mh-gZi"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Qnn-x1-qaJ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pys-yc-Rbv">
-                                <rect key="frame" x="268" y="285" width="64" height="30"/>
+                                <rect key="frame" x="155.5" y="318.5" width="64" height="30"/>
                                 <state key="normal" title="Press me"/>
                                 <connections>
                                     <action selector="buttonAction:" destination="pmo-52-Kqn" eventType="touchUpInside" id="MjK-Zf-1iU"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="500" minValue="100" maxValue="1000" translatesAutoresizingMaskIntoConstraints="NO" id="uT4-XT-QPZ">
-                                <rect key="frame" x="241" y="346" width="118" height="31"/>
+                                <rect key="frame" x="128.5" y="379.5" width="118" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="114" id="gds-5r-qgN"/>
                                     <constraint firstAttribute="height" constant="30" id="lBb-7j-Ek9"/>
@@ -54,7 +58,7 @@
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="300" minValue="100" maxValue="1000" translatesAutoresizingMaskIntoConstraints="NO" id="g9q-57-xdO">
-                                <rect key="frame" x="241" y="414" width="118" height="31"/>
+                                <rect key="frame" x="128.5" y="447.5" width="118" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="114" id="3o5-tl-8pt"/>
                                     <constraint firstAttribute="height" constant="30" id="cnE-Ha-yxK"/>
@@ -64,7 +68,7 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oe-DA-UNg">
-                                <rect key="frame" x="270" y="384" width="60" height="21"/>
+                                <rect key="frame" x="157.5" y="417.5" width="60" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="F5Y-wn-XoV"/>
                                     <constraint firstAttribute="height" constant="21" id="M3S-wh-S1g"/>
@@ -74,7 +78,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Velocity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjm-sr-bQZ">
-                                <rect key="frame" x="269" y="452" width="61" height="21"/>
+                                <rect key="frame" x="157" y="485.5" width="61" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="61" id="6UI-oZ-K8A"/>
                                     <constraint firstAttribute="height" constant="21" id="AQv-CQ-LHS"/>
@@ -84,13 +88,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WNH-bZ-OHj">
-                                <rect key="frame" x="363" y="481" width="51" height="31"/>
+                                <rect key="frame" x="251" y="514.5" width="51" height="31"/>
                                 <connections>
                                     <action selector="customImageToggle:" destination="pmo-52-Kqn" eventType="valueChanged" id="iBd-In-0V1"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFH-W5-EJQ">
-                                <rect key="frame" x="244" y="485" width="111" height="21"/>
+                                <rect key="frame" x="132" y="518.5" width="111" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="111" id="cNe-vq-iBh"/>
                                     <constraint firstAttribute="height" constant="21" id="dDZ-Zw-Quv"/>
@@ -100,11 +104,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bF0-3p-0aW" customClass="PartyCanonView">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="uT4-XT-QPZ" firstAttribute="top" secondItem="Pys-yc-Rbv" secondAttribute="bottom" constant="31" id="1nq-I3-QJ6"/>
                             <constraint firstItem="Yjm-sr-bQZ" firstAttribute="centerX" secondItem="Qnn-x1-qaJ" secondAttribute="centerX" id="2nh-iM-5KD"/>

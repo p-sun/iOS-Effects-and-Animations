@@ -7,382 +7,449 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A5ED3DD591FACB278AA4BFAE614BF9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		3E962784EC66E953DEDD66F46AB995B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		56980D7E1A41143B4D3363368FD39ED1 /* PartyCanonView.h in Headers */ = {isa = PBXBuildFile; fileRef = F759EBA4CDE34FAFC19E1D335CB60296 /* PartyCanonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62E5348F05B92BB2F8D87803BA0E9737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		6715591324328EC1F5D870C7B67A0C75 /* PartyCanon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 499AEFBC12EFD057664C6A93DB3068C9 /* PartyCanon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AE576A27B2A2979574BE1196F0A4A03 /* PartyCanon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1CAD066964A0A7B34B84D7CE050CF39 /* PartyCanon.bundle */; };
-		92E69559F3085AEDCD8D056CE061D38E /* Pods-PartyCanon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F13E3A75AB7F83A63661658DCFC3DB /* Pods-PartyCanon_Example-dummy.m */; };
-		9D62D8750CE8579664D5B56922FA6795 /* Pods-PartyCanon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 877E93CDF04A6F6B61549827ABADC998 /* Pods-PartyCanon_Tests-dummy.m */; };
-		A797CA6890586DE3B33473DE1E45EBD0 /* PartyCanonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B107BD77BAC775AD9D5AA461EBA739E9 /* PartyCanonView.m */; };
-		B43AB2621C58D01E000BEF50 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1203F54612B7E845D99A9E05D2B4DE /* confetti.png */; };
-		BC451715D11815BB58E8F10F28C4B4BD /* PartyCanon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 995F5A8C14260C825955717C9629D2D4 /* PartyCanon-dummy.m */; };
-		C54AFD5CF251DB31C17D023977801D65 /* Pods-PartyCanon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1925A92AD203F860B63ECDFF251914C /* Pods-PartyCanon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2E91A2230C105758D4A90E890D3D983 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
-		DDE50B04CBA2AA75FC20AC23180ACBA7 /* Pods-PartyCanon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BFC9DD20BB4DCA008F780F79F0DCD9 /* Pods-PartyCanon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE62B5547C0994A907068EC53D814E72 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1203F54612B7E845D99A9E05D2B4DE /* confetti.png */; };
+		02D540E224940F5D81B16B66B8CC0A59 /* PartyCanon-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7653D86EF842FA0B0DE288B12DA878B /* PartyCanon-library-dummy.m */; };
+		040EE0226036E7478300EBDB72AA2878 /* Pods-PartyCanon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28275A0862F47B569CC6A756F9D127A1 /* Pods-PartyCanon_Tests-dummy.m */; };
+		1375273ED3AF8C2A8956DDDEA01D51DE /* PartyCanonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8271ED5953D7A993C52232937FA4B6B6 /* PartyCanonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28721F4FA7CEA754CEE3D201678E0BEC /* PartyCanon-framework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF70EF8306D72AC0B3DFA253EDAF14E /* PartyCanon-framework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C21DBBED987B8A2F154E07ACBB21521 /* Pods-PartyCanon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0704DE987E971F95E7FCA19A3B27F28 /* Pods-PartyCanon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4498B5080FD6BF5E309A42F0C44CFE /* PartyCanon-framework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 425F4846E12DEE483D304059BAC58740 /* PartyCanon-framework-dummy.m */; };
+		3B26C755E9E4DD55DE7C9C40056C9479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		645B09231191DA340070306E8B1A04F1 /* Pods-PartyCanon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E74E74D9BE380E4F590781B0B419B1 /* Pods-PartyCanon_Example-dummy.m */; };
+		6990CC9E9C27F7CEB294D56253DDEC68 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EFDD84ECA744EA934CA1EA54C5CB9D /* confetti.png */; };
+		869D6842263ADE1CF2F9FC85C618BF6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		89AC94EA379666F1214FC45C828349F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		B366189A78BC356F75FDE588FF3DF31C /* PartyCanonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 601375038A34D56CCC4537EEFB071C2B /* PartyCanonView.m */; };
+		B71B444C3A6B425A0D1C74BE64967856 /* PartyCanon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B9EEC9052F3DFF7608FB34090869A05 /* PartyCanon.bundle */; };
+		BDAE0E32D97422F619959CB001192B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		C1A1374FD5954A2EE60B8CB44CE23FB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		E10B6DA9ED61AC2F04476D9F66BD7775 /* PartyCanonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 601375038A34D56CCC4537EEFB071C2B /* PartyCanonView.m */; };
+		F6E0F090AA1B3E5945F8C84692E16316 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		FA5D6DD4F9E2EC4EFF8E7A2B5B61F0B9 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EFDD84ECA744EA934CA1EA54C5CB9D /* confetti.png */; };
+		FF2FE6B8BCA84AF6CFD5C2E202820389 /* PartyCanonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8271ED5953D7A993C52232937FA4B6B6 /* PartyCanonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		257E172AAB281BFB9ACB3CA466C4F8A3 /* PBXContainerItemProxy */ = {
+		0F192E93143A3C74EB8AE7310FBC12B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E6E0156EA3342866069837AF1FAE4ACB;
-			remoteInfo = PartyCanon;
+			remoteGlobalIDString = 934043EFC3DAD281F8B87094865392E6;
+			remoteInfo = "PartyCanon-library";
 		};
-		312164596CC68A189B2D504B9DFFBE51 /* PBXContainerItemProxy */ = {
+		7E48C2000BFA4C629F741A9EF167913A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E6E0156EA3342866069837AF1FAE4ACB;
-			remoteInfo = PartyCanon;
+			remoteGlobalIDString = 04F3AE14610095CAC6B5B0AF8F57246C;
+			remoteInfo = "PartyCanon-framework";
 		};
-		84F06CC361C47048A975FFAE83FBAC42 /* PBXContainerItemProxy */ = {
+		987125FB08628584F28A2A2B184026F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 29194CF14BDE44F0B800FD211FBA9254;
-			remoteInfo = "PartyCanon-PartyCanon";
+			remoteGlobalIDString = 71F0EB1AF1C64266E344EA2C68F122C4;
+			remoteInfo = "PartyCanon-framework-PartyCanon";
+		};
+		D66D577C079C0CD676B251D32761FB3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B98189A999DE5AF476402D8BF016D3;
+			remoteInfo = "PartyCanon-library-PartyCanon";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049A721BBBDEE0BC49A847288DFC832F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		113DB08D98FEB5AE3B64B10574E402D8 /* Pods-PartyCanon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PartyCanon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		210005AF473B3263CF25E439F6EFFAA4 /* Pods-PartyCanon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartyCanon_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		213B5148C588516590CBB2EFBFD92536 /* Pods-PartyCanon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PartyCanon_Example.modulemap"; sourceTree = "<group>"; };
-		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2BC3DCFF9D38C0D86E14E8ABFFD0A923 /* Pods-PartyCanon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartyCanon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3633F8B6E7C3F798E63D4E874FCFBA2E /* Pods-PartyCanon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartyCanon_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C16C38E89B8040BF8AA8DC9D5DB82CF /* Pods_PartyCanon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartyCanon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		499AEFBC12EFD057664C6A93DB3068C9 /* PartyCanon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PartyCanon-umbrella.h"; sourceTree = "<group>"; };
-		52FB64B846096E35A2FC9221AF39F7AC /* Pods-PartyCanon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PartyCanon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		596DD875EA7A7F62A0D9D57A3A505AFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6576D1AC59E970E2EFFF10F7C09A98FE /* PartyCanon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PartyCanon-prefix.pch"; sourceTree = "<group>"; };
-		79AB0F4547A61E73CE9303AA035EA7F8 /* Pods-PartyCanon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PartyCanon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7C1F332A2D2A533963F8BB5C4BF6C56C /* Pods_PartyCanon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartyCanon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		877E93CDF04A6F6B61549827ABADC998 /* Pods-PartyCanon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PartyCanon_Tests-dummy.m"; sourceTree = "<group>"; };
-		8EA44E671BC9F7DDEC3CD373504B776E /* PartyCanon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PartyCanon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ECF4F2254AA1C1E1932C841AFE6A9F4 /* Pods-PartyCanon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartyCanon_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8F1D7C23D84C277831160792DADD3124 /* Pods-PartyCanon_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartyCanon_Tests-resources.sh"; sourceTree = "<group>"; };
-		9418909C13272D0BF07EF1B42A509735 /* PartyCanon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PartyCanon.xcconfig; sourceTree = "<group>"; };
-		995F5A8C14260C825955717C9629D2D4 /* PartyCanon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PartyCanon-dummy.m"; sourceTree = "<group>"; };
-		9A5D1158A970D09F905858BC61E9B82D /* Pods-PartyCanon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartyCanon_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A99391D75D510E7F0C7A5BDA08851424 /* Pods-PartyCanon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartyCanon_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B107BD77BAC775AD9D5AA461EBA739E9 /* PartyCanonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PartyCanonView.m; sourceTree = "<group>"; };
-		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBB57EED7E4E7853C08E1F86891E858E /* Pods-PartyCanon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PartyCanon_Tests.modulemap"; sourceTree = "<group>"; };
-		C5F09525B543F6A23DEDDE9679292378 /* Pods-PartyCanon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PartyCanon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0BFC9DD20BB4DCA008F780F79F0DCD9 /* Pods-PartyCanon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PartyCanon_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D1CAD066964A0A7B34B84D7CE050CF39 /* PartyCanon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyCanon.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5BC7A9C2B4B1BB0EA6F6E6325836864 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1925A92AD203F860B63ECDFF251914C /* Pods-PartyCanon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PartyCanon_Example-umbrella.h"; sourceTree = "<group>"; };
-		E4A5BD9DF8F27B2D3674387953E468E5 /* PartyCanon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PartyCanon.modulemap; sourceTree = "<group>"; };
-		EA1203F54612B7E845D99A9E05D2B4DE /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
-		F759EBA4CDE34FAFC19E1D335CB60296 /* PartyCanonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PartyCanonView.h; sourceTree = "<group>"; };
-		F8F13E3A75AB7F83A63661658DCFC3DB /* Pods-PartyCanon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PartyCanon_Example-dummy.m"; sourceTree = "<group>"; };
-		FFC094B5A5DCEFA979F27312CD485554 /* Pods-PartyCanon_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartyCanon_Example-resources.sh"; sourceTree = "<group>"; };
+		1202A4891D770DDCB1E7B377DAE07D8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28275A0862F47B569CC6A756F9D127A1 /* Pods-PartyCanon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PartyCanon_Tests-dummy.m"; sourceTree = "<group>"; };
+		2F8E1DCC4F76943F239ECF4FA7F41D52 /* Pods-PartyCanon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartyCanon_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41326C8D114A9EDE819F0D8B44933257 /* Pods_PartyCanon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartyCanon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		425F4846E12DEE483D304059BAC58740 /* PartyCanon-framework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PartyCanon-framework-dummy.m"; sourceTree = "<group>"; };
+		43C1CFA8B5C6D665454A678501DC5CD3 /* Pods-PartyCanon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PartyCanon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57EFDD84ECA744EA934CA1EA54C5CB9D /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
+		601375038A34D56CCC4537EEFB071C2B /* PartyCanonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PartyCanonView.m; sourceTree = "<group>"; };
+		672AEF62D4322881679120100990F6F7 /* Pods-PartyCanon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartyCanon_Example-frameworks.sh"; sourceTree = "<group>"; };
+		67B211FBB7FA2B10C4C68E18D1894D0E /* PartyCanon-framework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PartyCanon-framework-prefix.pch"; sourceTree = "<group>"; };
+		68E57A7EA6996DF726E69A35D60C2835 /* PartyCanon-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "PartyCanon-library.xcconfig"; path = "../PartyCanon-library/PartyCanon-library.xcconfig"; sourceTree = "<group>"; };
+		77FD9DA687DC6A438A05E2DBBE197DDA /* Pods-PartyCanon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartyCanon_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		787EE469FC51182C3644E29A90186CE7 /* PartyCanon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PartyCanon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B88874C36D6EC002D5529233623021A /* Pods-PartyCanon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartyCanon_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7FFE43B6C04FBCE7A70869C3F65713D5 /* Pods-PartyCanon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PartyCanon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8271ED5953D7A993C52232937FA4B6B6 /* PartyCanonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PartyCanonView.h; sourceTree = "<group>"; };
+		87FA820B2BFE72B08CDB418B0886B6FE /* ResourceBundle-PartyCanon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-PartyCanon-Info.plist"; path = "../PartyCanon-library/ResourceBundle-PartyCanon-Info.plist"; sourceTree = "<group>"; };
+		8B6B4A73CF1A531F6F22994DBFD37B6C /* Pods-PartyCanon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PartyCanon_Example.modulemap"; sourceTree = "<group>"; };
+		8B9EEC9052F3DFF7608FB34090869A05 /* PartyCanon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyCanon.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB5F9CE7308E41F23E56F683F40A4AC /* Pods-PartyCanon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PartyCanon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		91AED3F6CCB995A1507C0AE0155F45C2 /* PartyCanon-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PartyCanon-library-prefix.pch"; path = "../PartyCanon-library/PartyCanon-library-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4CF3236103A31F747F8C94015D3EC6 /* Pods-PartyCanon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartyCanon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A4DB3F31C1A5B431111CE613A55CCC /* Pods-PartyCanon_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartyCanon_Tests-resources.sh"; sourceTree = "<group>"; };
+		BA2E6BBD52C179A994566394D57265A3 /* libPartyCanon-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPartyCanon-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BB133FE9B5A6239CC35F6535D7905E70 /* PartyCanon-framework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PartyCanon-framework.xcconfig"; sourceTree = "<group>"; };
+		C8CA0EF575350E0599D3D167C9359DC1 /* ResourceBundle-PartyCanon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PartyCanon-Info.plist"; sourceTree = "<group>"; };
+		C8FCF261AC4EE4A0B9012F43DB250AF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7B63B5574D54B532E7D81622047020 /* Pods-PartyCanon_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartyCanon_Example-resources.sh"; sourceTree = "<group>"; };
+		CBA3DEB73C7B11E81D6AC7159B2F8AF1 /* Pods-PartyCanon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartyCanon_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC7844CDF5351A51C5E2ED2A5EDFD988 /* PartyCanon-framework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "PartyCanon-framework.modulemap"; sourceTree = "<group>"; };
+		D1931038474063623BF16BC68B53D1BE /* libPods-PartyCanon_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PartyCanon_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0704DE987E971F95E7FCA19A3B27F28 /* Pods-PartyCanon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PartyCanon_Example-umbrella.h"; sourceTree = "<group>"; };
+		E7653D86EF842FA0B0DE288B12DA878B /* PartyCanon-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PartyCanon-library-dummy.m"; path = "../PartyCanon-library/PartyCanon-library-dummy.m"; sourceTree = "<group>"; };
+		F9E74E74D9BE380E4F590781B0B419B1 /* Pods-PartyCanon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PartyCanon_Example-dummy.m"; sourceTree = "<group>"; };
+		FBF70EF8306D72AC0B3DFA253EDAF14E /* PartyCanon-framework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PartyCanon-framework-umbrella.h"; sourceTree = "<group>"; };
+		FDB2219A99C24045DC827BDDF8669BF6 /* Pods-PartyCanon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PartyCanon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07C0200F721464E7C8EAA34C8D7ACD37 /* Frameworks */ = {
+		27D6AAFFFFC418F779564ED163B31F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869D6842263ADE1CF2F9FC85C618BF6D /* Foundation.framework in Frameworks */,
+				F6E0F090AA1B3E5945F8C84692E16316 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28431DA9D3F0976A54312462B9BD5820 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DB8DBC2C6A0C772EB3018FAF78CCDEF /* Frameworks */ = {
+		B82B4AD6036E75E43FB29632C92AC3FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5ED3DD591FACB278AA4BFAE614BF9A /* Foundation.framework in Frameworks */,
-				D2E91A2230C105758D4A90E890D3D983 /* QuartzCore.framework in Frameworks */,
+				BDAE0E32D97422F619959CB001192B1D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		453FE36FBCCBC90D46E8FC03FBD6ABAD /* Frameworks */ = {
+		B8BFDCFD591EF172BB88F69C35A6EAB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62E5348F05B92BB2F8D87803BA0E9737 /* Foundation.framework in Frameworks */,
+				3B26C755E9E4DD55DE7C9C40056C9479 /* Foundation.framework in Frameworks */,
+				C1A1374FD5954A2EE60B8CB44CE23FB2 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C59EA161FEB493CBD33D10610A8B21A4 /* Frameworks */ = {
+		BF5A6242CE8446F42BF52A0DEEB1A38F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E962784EC66E953DEDD66F46AB995B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32B55FC387D4D5B080EA0DA3CAF8FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AC94EA379666F1214FC45C828349F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		110DA563A45C4373223D5BAD47E8A28D /* Resources */ = {
+		0A89CF5A32E4D776260656EB7C334DE5 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B2FD4830629719D7017F5C14E0009094 /* Pod */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		126F61B4E40C448BCF7BA76E30069E21 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D1CAD066964A0A7B34B84D7CE050CF39 /* PartyCanon.bundle */,
-				8EA44E671BC9F7DDEC3CD373504B776E /* PartyCanon.framework */,
-				7C1F332A2D2A533963F8BB5C4BF6C56C /* Pods_PartyCanon_Example.framework */,
-				3C16C38E89B8040BF8AA8DC9D5DB82CF /* Pods_PartyCanon_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		19822F344A5A418F5C498DE7B0973816 /* Pods-PartyCanon_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				049A721BBBDEE0BC49A847288DFC832F /* Info.plist */,
-				BBB57EED7E4E7853C08E1F86891E858E /* Pods-PartyCanon_Tests.modulemap */,
-				52FB64B846096E35A2FC9221AF39F7AC /* Pods-PartyCanon_Tests-acknowledgements.markdown */,
-				79AB0F4547A61E73CE9303AA035EA7F8 /* Pods-PartyCanon_Tests-acknowledgements.plist */,
-				877E93CDF04A6F6B61549827ABADC998 /* Pods-PartyCanon_Tests-dummy.m */,
-				A99391D75D510E7F0C7A5BDA08851424 /* Pods-PartyCanon_Tests-frameworks.sh */,
-				8F1D7C23D84C277831160792DADD3124 /* Pods-PartyCanon_Tests-resources.sh */,
-				D0BFC9DD20BB4DCA008F780F79F0DCD9 /* Pods-PartyCanon_Tests-umbrella.h */,
-				2BC3DCFF9D38C0D86E14E8ABFFD0A923 /* Pods-PartyCanon_Tests.debug.xcconfig */,
-				210005AF473B3263CF25E439F6EFFAA4 /* Pods-PartyCanon_Tests.release.xcconfig */,
-			);
-			name = "Pods-PartyCanon_Tests";
-			path = "Target Support Files/Pods-PartyCanon_Tests";
-			sourceTree = "<group>";
-		};
-		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
-				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3926C638AD0708942C88C2BC89261735 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		45A35C839485331DB551BFC3AB680EE8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A25EC46F76453950434A1D2FE84E4841 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		5203C322405D30E502F5282393BA0DCC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E649DA2A7AF6130C60F40CB24AAA6F18 /* Pods-PartyCanon_Example */,
-				19822F344A5A418F5C498DE7B0973816 /* Pods-PartyCanon_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		76DF1A38D4315013477515B37CDC10F0 /* PartyCanon */ = {
-			isa = PBXGroup;
-			children = (
-				45A35C839485331DB551BFC3AB680EE8 /* Pod */,
-				110DA563A45C4373223D5BAD47E8A28D /* Resources */,
-				D7550B4773473915902FE8408843B7C7 /* Support Files */,
-			);
-			name = PartyCanon;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				CD5B6ECE4D957D0189B0CDE4FB1A309C /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				126F61B4E40C448BCF7BA76E30069E21 /* Products */,
-				5203C322405D30E502F5282393BA0DCC /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A25EC46F76453950434A1D2FE84E4841 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F759EBA4CDE34FAFC19E1D335CB60296 /* PartyCanonView.h */,
-				B107BD77BAC775AD9D5AA461EBA739E9 /* PartyCanonView.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		B2FD4830629719D7017F5C14E0009094 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DC97A6949B655C4A4147D8C97387FC91 /* Assets */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		CD5B6ECE4D957D0189B0CDE4FB1A309C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				76DF1A38D4315013477515B37CDC10F0 /* PartyCanon */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D7550B4773473915902FE8408843B7C7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D5BC7A9C2B4B1BB0EA6F6E6325836864 /* Info.plist */,
-				E4A5BD9DF8F27B2D3674387953E468E5 /* PartyCanon.modulemap */,
-				9418909C13272D0BF07EF1B42A509735 /* PartyCanon.xcconfig */,
-				995F5A8C14260C825955717C9629D2D4 /* PartyCanon-dummy.m */,
-				6576D1AC59E970E2EFFF10F7C09A98FE /* PartyCanon-prefix.pch */,
-				499AEFBC12EFD057664C6A93DB3068C9 /* PartyCanon-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PartyCanon";
-			sourceTree = "<group>";
-		};
-		DC97A6949B655C4A4147D8C97387FC91 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				EA1203F54612B7E845D99A9E05D2B4DE /* confetti.png */,
+				57EFDD84ECA744EA934CA1EA54C5CB9D /* confetti.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		E649DA2A7AF6130C60F40CB24AAA6F18 /* Pods-PartyCanon_Example */ = {
+		0B8FF4DB082B90F358510674AEBD60A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				596DD875EA7A7F62A0D9D57A3A505AFB /* Info.plist */,
-				213B5148C588516590CBB2EFBFD92536 /* Pods-PartyCanon_Example.modulemap */,
-				C5F09525B543F6A23DEDDE9679292378 /* Pods-PartyCanon_Example-acknowledgements.markdown */,
-				113DB08D98FEB5AE3B64B10574E402D8 /* Pods-PartyCanon_Example-acknowledgements.plist */,
-				F8F13E3A75AB7F83A63661658DCFC3DB /* Pods-PartyCanon_Example-dummy.m */,
-				9A5D1158A970D09F905858BC61E9B82D /* Pods-PartyCanon_Example-frameworks.sh */,
-				FFC094B5A5DCEFA979F27312CD485554 /* Pods-PartyCanon_Example-resources.sh */,
-				E1925A92AD203F860B63ECDFF251914C /* Pods-PartyCanon_Example-umbrella.h */,
-				8ECF4F2254AA1C1E1932C841AFE6A9F4 /* Pods-PartyCanon_Example.debug.xcconfig */,
-				3633F8B6E7C3F798E63D4E874FCFBA2E /* Pods-PartyCanon_Example.release.xcconfig */,
+				BA2E6BBD52C179A994566394D57265A3 /* libPartyCanon-library.a */,
+				D1931038474063623BF16BC68B53D1BE /* libPods-PartyCanon_Tests.a */,
+				8B9EEC9052F3DFF7608FB34090869A05 /* PartyCanon.bundle */,
+				787EE469FC51182C3644E29A90186CE7 /* PartyCanon.framework */,
+				41326C8D114A9EDE819F0D8B44933257 /* Pods_PartyCanon_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42E01844DD78E78AF0A850599BF70351 /* Pods-PartyCanon_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1202A4891D770DDCB1E7B377DAE07D8F /* Info.plist */,
+				8B6B4A73CF1A531F6F22994DBFD37B6C /* Pods-PartyCanon_Example.modulemap */,
+				43C1CFA8B5C6D665454A678501DC5CD3 /* Pods-PartyCanon_Example-acknowledgements.markdown */,
+				8EB5F9CE7308E41F23E56F683F40A4AC /* Pods-PartyCanon_Example-acknowledgements.plist */,
+				F9E74E74D9BE380E4F590781B0B419B1 /* Pods-PartyCanon_Example-dummy.m */,
+				672AEF62D4322881679120100990F6F7 /* Pods-PartyCanon_Example-frameworks.sh */,
+				CA7B63B5574D54B532E7D81622047020 /* Pods-PartyCanon_Example-resources.sh */,
+				E0704DE987E971F95E7FCA19A3B27F28 /* Pods-PartyCanon_Example-umbrella.h */,
+				77FD9DA687DC6A438A05E2DBBE197DDA /* Pods-PartyCanon_Example.debug.xcconfig */,
+				7B88874C36D6EC002D5529233623021A /* Pods-PartyCanon_Example.release.xcconfig */,
 			);
 			name = "Pods-PartyCanon_Example";
 			path = "Target Support Files/Pods-PartyCanon_Example";
 			sourceTree = "<group>";
 		};
+		42E282B0D809E49CAEC2199EAC712140 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8271ED5953D7A993C52232937FA4B6B6 /* PartyCanonView.h */,
+				601375038A34D56CCC4537EEFB071C2B /* PartyCanonView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7AB6F27FF3606F9360547F8F1977A63 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		481D109501C0B32C09BA3B5E2B487D9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				847EC37B0A9F3C1158136311B05AA787 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CBBCD4A722522DE06D304C584C7F20D /* PartyCanon */ = {
+			isa = PBXGroup;
+			children = (
+				C0EFCE9168FACF8F817A14F02D6CA5B0 /* Pod */,
+				481D109501C0B32C09BA3B5E2B487D9D /* Resources */,
+				A76E34F3A409727F147573CD229D36BD /* Support Files */,
+			);
+			name = PartyCanon;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		73FF9407C03356521CDEB82EF2D7D3BC /* Pods-PartyCanon_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2219A99C24045DC827BDDF8669BF6 /* Pods-PartyCanon_Tests-acknowledgements.markdown */,
+				7FFE43B6C04FBCE7A70869C3F65713D5 /* Pods-PartyCanon_Tests-acknowledgements.plist */,
+				28275A0862F47B569CC6A756F9D127A1 /* Pods-PartyCanon_Tests-dummy.m */,
+				2F8E1DCC4F76943F239ECF4FA7F41D52 /* Pods-PartyCanon_Tests-frameworks.sh */,
+				B8A4DB3F31C1A5B431111CE613A55CCC /* Pods-PartyCanon_Tests-resources.sh */,
+				9F4CF3236103A31F747F8C94015D3EC6 /* Pods-PartyCanon_Tests.debug.xcconfig */,
+				CBA3DEB73C7B11E81D6AC7159B2F8AF1 /* Pods-PartyCanon_Tests.release.xcconfig */,
+			);
+			name = "Pods-PartyCanon_Tests";
+			path = "Target Support Files/Pods-PartyCanon_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CD5B6ECE4D957D0189B0CDE4FB1A309C /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0B8FF4DB082B90F358510674AEBD60A2 /* Products */,
+				E1DD85380DE100A26A8D0910433CD43D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		847EC37B0A9F3C1158136311B05AA787 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0A89CF5A32E4D776260656EB7C334DE5 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A76E34F3A409727F147573CD229D36BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8FCF261AC4EE4A0B9012F43DB250AF3 /* Info.plist */,
+				CC7844CDF5351A51C5E2ED2A5EDFD988 /* PartyCanon-framework.modulemap */,
+				BB133FE9B5A6239CC35F6535D7905E70 /* PartyCanon-framework.xcconfig */,
+				425F4846E12DEE483D304059BAC58740 /* PartyCanon-framework-dummy.m */,
+				67B211FBB7FA2B10C4C68E18D1894D0E /* PartyCanon-framework-prefix.pch */,
+				FBF70EF8306D72AC0B3DFA253EDAF14E /* PartyCanon-framework-umbrella.h */,
+				68E57A7EA6996DF726E69A35D60C2835 /* PartyCanon-library.xcconfig */,
+				E7653D86EF842FA0B0DE288B12DA878B /* PartyCanon-library-dummy.m */,
+				91AED3F6CCB995A1507C0AE0155F45C2 /* PartyCanon-library-prefix.pch */,
+				87FA820B2BFE72B08CDB418B0886B6FE /* ResourceBundle-PartyCanon-Info.plist */,
+				C8CA0EF575350E0599D3D167C9359DC1 /* ResourceBundle-PartyCanon-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PartyCanon-framework";
+			sourceTree = "<group>";
+		};
+		C0EFCE9168FACF8F817A14F02D6CA5B0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				42E282B0D809E49CAEC2199EAC712140 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */,
+				BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD5B6ECE4D957D0189B0CDE4FB1A309C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CBBCD4A722522DE06D304C584C7F20D /* PartyCanon */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E1DD85380DE100A26A8D0910433CD43D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42E01844DD78E78AF0A850599BF70351 /* Pods-PartyCanon_Example */,
+				73FF9407C03356521CDEB82EF2D7D3BC /* Pods-PartyCanon_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		59C61F9CB40D8B450BD4168AA886E0AF /* Headers */ = {
+		0E352903165CBEBE962894AF8EAA45CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE50B04CBA2AA75FC20AC23180ACBA7 /* Pods-PartyCanon_Tests-umbrella.h in Headers */,
+				2C21DBBED987B8A2F154E07ACBB21521 /* Pods-PartyCanon_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8936F22D0827A3FDE9FC0B8C2F175F75 /* Headers */ = {
+		2AF786F40DC1EBB1B254ADDE137BB4CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6715591324328EC1F5D870C7B67A0C75 /* PartyCanon-umbrella.h in Headers */,
-				56980D7E1A41143B4D3363368FD39ED1 /* PartyCanonView.h in Headers */,
+				1375273ED3AF8C2A8956DDDEA01D51DE /* PartyCanonView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2E80F2A0B18A006B571BCC257B0ECD2 /* Headers */ = {
+		9FF92AEE9FF4F1AC90EB02E4BDA8B7A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C54AFD5CF251DB31C17D023977801D65 /* Pods-PartyCanon_Example-umbrella.h in Headers */,
+				28721F4FA7CEA754CEE3D201678E0BEC /* PartyCanon-framework-umbrella.h in Headers */,
+				FF2FE6B8BCA84AF6CFD5C2E202820389 /* PartyCanonView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		29194CF14BDE44F0B800FD211FBA9254 /* PartyCanon-PartyCanon */ = {
+		04F3AE14610095CAC6B5B0AF8F57246C /* PartyCanon-framework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD5FF74D9AAFF1D27D88AFEBB037AABB /* Build configuration list for PBXNativeTarget "PartyCanon-PartyCanon" */;
+			buildConfigurationList = C1F19120ED5FAEC54160B1AA19FC69CD /* Build configuration list for PBXNativeTarget "PartyCanon-framework" */;
 			buildPhases = (
-				8C61F82A899352B245ADE99BBE9073D2 /* Sources */,
-				07C0200F721464E7C8EAA34C8D7ACD37 /* Frameworks */,
-				8A321F5A27A4F4A7393747095153F030 /* Resources */,
+				1F3CDAF96FC864AABC3B5C36072DEE32 /* Sources */,
+				B8BFDCFD591EF172BB88F69C35A6EAB5 /* Frameworks */,
+				E4E8973EDD74B8350CE3B1E615291D63 /* Resources */,
+				9FF92AEE9FF4F1AC90EB02E4BDA8B7A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				682C60EA8AD04D7D71E27F55F3465164 /* PBXTargetDependency */,
+			);
+			name = "PartyCanon-framework";
+			productName = "PartyCanon-framework";
+			productReference = 787EE469FC51182C3644E29A90186CE7 /* PartyCanon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68B98189A999DE5AF476402D8BF016D3 /* PartyCanon-library-PartyCanon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B1E5B85316626FC46052D387B46E57 /* Build configuration list for PBXNativeTarget "PartyCanon-library-PartyCanon" */;
+			buildPhases = (
+				3FD39DBC21AA3A36C65B951518389D4F /* Sources */,
+				28431DA9D3F0976A54312462B9BD5820 /* Frameworks */,
+				48C57BDD3C166B81C3E122B8FF4B0608 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "PartyCanon-PartyCanon";
-			productName = "PartyCanon-PartyCanon";
-			productReference = D1CAD066964A0A7B34B84D7CE050CF39 /* PartyCanon.bundle */;
+			name = "PartyCanon-library-PartyCanon";
+			productName = "PartyCanon-library-PartyCanon";
+			productReference = 8B9EEC9052F3DFF7608FB34090869A05 /* PartyCanon.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		2B049176041FE164940AE8084409B9FF /* Pods-PartyCanon_Example */ = {
+		71F0EB1AF1C64266E344EA2C68F122C4 /* PartyCanon-framework-PartyCanon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9043E814669A19D1CDF4DF2F4F13245 /* Build configuration list for PBXNativeTarget "Pods-PartyCanon_Example" */;
+			buildConfigurationList = 72FEBBD8A87276DBD8873F897FCE62F9 /* Build configuration list for PBXNativeTarget "PartyCanon-framework-PartyCanon" */;
 			buildPhases = (
-				E787A6CC683D0B4B1C296CB1F639A2B8 /* Sources */,
-				453FE36FBCCBC90D46E8FC03FBD6ABAD /* Frameworks */,
-				B2E80F2A0B18A006B571BCC257B0ECD2 /* Headers */,
+				4B47D370A61C871A29C82A6735815276 /* Sources */,
+				BF5A6242CE8446F42BF52A0DEEB1A38F /* Frameworks */,
+				2E4A67669E6BDF0F1AD0AF3AEC420FEB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				994A8DA2D6B217314211B8C5E9B72F9C /* PBXTargetDependency */,
+			);
+			name = "PartyCanon-framework-PartyCanon";
+			productName = "PartyCanon-framework-PartyCanon";
+			productReference = 8B9EEC9052F3DFF7608FB34090869A05 /* PartyCanon.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		83CF38F9E9C00586D02E6E412913E638 /* Pods-PartyCanon_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B85901A73FAD36BC4960F63D5620AC /* Build configuration list for PBXNativeTarget "Pods-PartyCanon_Example" */;
+			buildPhases = (
+				7B2B8F5D9613C74F762FFD5396275A9D /* Sources */,
+				D32B55FC387D4D5B080EA0DA3CAF8FCB /* Frameworks */,
+				0E352903165CBEBE962894AF8EAA45CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B1C6391A4E9CE870644A551B05FDC8 /* PBXTargetDependency */,
 			);
 			name = "Pods-PartyCanon_Example";
 			productName = "Pods-PartyCanon_Example";
-			productReference = 7C1F332A2D2A533963F8BB5C4BF6C56C /* Pods_PartyCanon_Example.framework */;
+			productReference = 41326C8D114A9EDE819F0D8B44933257 /* Pods_PartyCanon_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7378FEB99A40812764C37DD6F20B0926 /* Pods-PartyCanon_Tests */ = {
+		934043EFC3DAD281F8B87094865392E6 /* PartyCanon-library */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D42B8FB2E95EFAE536D27289DE0CD7CC /* Build configuration list for PBXNativeTarget "Pods-PartyCanon_Tests" */;
+			buildConfigurationList = 2A6EBB5408BCB5CC85883B35F7D6B814 /* Build configuration list for PBXNativeTarget "PartyCanon-library" */;
 			buildPhases = (
-				A49449ADC99058EA36F209FD748CE939 /* Sources */,
-				C59EA161FEB493CBD33D10610A8B21A4 /* Frameworks */,
-				59C61F9CB40D8B450BD4168AA886E0AF /* Headers */,
+				F1481BF2F04F2E69C2978FA8329468EF /* Sources */,
+				27D6AAFFFFC418F779564ED163B31F97 /* Frameworks */,
+				2AF786F40DC1EBB1B254ADDE137BB4CB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B54AC08884E708B0598BFE6BD72BCB77 /* PBXTargetDependency */,
+				BBD070130EC420FFDC22F1B245EAC237 /* PBXTargetDependency */,
+			);
+			name = "PartyCanon-library";
+			productName = "PartyCanon-library";
+			productReference = BA2E6BBD52C179A994566394D57265A3 /* libPartyCanon-library.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D28A91FB0A41D04D6CA4D53ED8B68187 /* Pods-PartyCanon_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF32572FFA775CE484DEB73E00A460FA /* Build configuration list for PBXNativeTarget "Pods-PartyCanon_Tests" */;
+			buildPhases = (
+				BFC8F3D5886BCA8B7D8EE9C59B2E6FC0 /* Sources */,
+				B82B4AD6036E75E43FB29632C92AC3FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				342DE46F14A89E10E46E9A8172C369D6 /* PBXTargetDependency */,
 			);
 			name = "Pods-PartyCanon_Tests";
 			productName = "Pods-PartyCanon_Tests";
-			productReference = 3C16C38E89B8040BF8AA8DC9D5DB82CF /* Pods_PartyCanon_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E6E0156EA3342866069837AF1FAE4ACB /* PartyCanon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0BAFB08B41C93EA13E7583A1B1D14CBC /* Build configuration list for PBXNativeTarget "PartyCanon" */;
-			buildPhases = (
-				C31B1C32E3A5E122989B8BE64B673BA1 /* Sources */,
-				3DB8DBC2C6A0C772EB3018FAF78CCDEF /* Frameworks */,
-				6E1C264EC34FEFFE59C57646998CB63B /* Resources */,
-				8936F22D0827A3FDE9FC0B8C2F175F75 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0B0570BED75F7FC17A60FA8E99BA806F /* PBXTargetDependency */,
-			);
-			name = PartyCanon;
-			productName = PartyCanon;
-			productReference = 8EA44E671BC9F7DDEC3CD373504B776E /* PartyCanon.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = D1931038474063623BF16BC68B53D1BE /* libPods-PartyCanon_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -390,7 +457,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -401,117 +468,251 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 126F61B4E40C448BCF7BA76E30069E21 /* Products */;
+			productRefGroup = 0B8FF4DB082B90F358510674AEBD60A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E6E0156EA3342866069837AF1FAE4ACB /* PartyCanon */,
-				29194CF14BDE44F0B800FD211FBA9254 /* PartyCanon-PartyCanon */,
-				2B049176041FE164940AE8084409B9FF /* Pods-PartyCanon_Example */,
-				7378FEB99A40812764C37DD6F20B0926 /* Pods-PartyCanon_Tests */,
+				04F3AE14610095CAC6B5B0AF8F57246C /* PartyCanon-framework */,
+				71F0EB1AF1C64266E344EA2C68F122C4 /* PartyCanon-framework-PartyCanon */,
+				934043EFC3DAD281F8B87094865392E6 /* PartyCanon-library */,
+				68B98189A999DE5AF476402D8BF016D3 /* PartyCanon-library-PartyCanon */,
+				83CF38F9E9C00586D02E6E412913E638 /* Pods-PartyCanon_Example */,
+				D28A91FB0A41D04D6CA4D53ED8B68187 /* Pods-PartyCanon_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E1C264EC34FEFFE59C57646998CB63B /* Resources */ = {
+		2E4A67669E6BDF0F1AD0AF3AEC420FEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE576A27B2A2979574BE1196F0A4A03 /* PartyCanon.bundle in Resources */,
-				B43AB2621C58D01E000BEF50 /* confetti.png in Resources */,
+				6990CC9E9C27F7CEB294D56253DDEC68 /* confetti.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A321F5A27A4F4A7393747095153F030 /* Resources */ = {
+		48C57BDD3C166B81C3E122B8FF4B0608 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE62B5547C0994A907068EC53D814E72 /* confetti.png in Resources */,
+				FA5D6DD4F9E2EC4EFF8E7A2B5B61F0B9 /* confetti.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E8973EDD74B8350CE3B1E615291D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71B444C3A6B425A0D1C74BE64967856 /* PartyCanon.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8C61F82A899352B245ADE99BBE9073D2 /* Sources */ = {
+		1F3CDAF96FC864AABC3B5C36072DEE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4498B5080FD6BF5E309A42F0C44CFE /* PartyCanon-framework-dummy.m in Sources */,
+				E10B6DA9ED61AC2F04476D9F66BD7775 /* PartyCanonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD39DBC21AA3A36C65B951518389D4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A49449ADC99058EA36F209FD748CE939 /* Sources */ = {
+		4B47D370A61C871A29C82A6735815276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D62D8750CE8579664D5B56922FA6795 /* Pods-PartyCanon_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C31B1C32E3A5E122989B8BE64B673BA1 /* Sources */ = {
+		7B2B8F5D9613C74F762FFD5396275A9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC451715D11815BB58E8F10F28C4B4BD /* PartyCanon-dummy.m in Sources */,
-				A797CA6890586DE3B33473DE1E45EBD0 /* PartyCanonView.m in Sources */,
+				645B09231191DA340070306E8B1A04F1 /* Pods-PartyCanon_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E787A6CC683D0B4B1C296CB1F639A2B8 /* Sources */ = {
+		BFC8F3D5886BCA8B7D8EE9C59B2E6FC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E69559F3085AEDCD8D056CE061D38E /* Pods-PartyCanon_Example-dummy.m in Sources */,
+				040EE0226036E7478300EBDB72AA2878 /* Pods-PartyCanon_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1481BF2F04F2E69C2978FA8329468EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D540E224940F5D81B16B66B8CC0A59 /* PartyCanon-library-dummy.m in Sources */,
+				B366189A78BC356F75FDE588FF3DF31C /* PartyCanonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B0570BED75F7FC17A60FA8E99BA806F /* PBXTargetDependency */ = {
+		11B1C6391A4E9CE870644A551B05FDC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "PartyCanon-PartyCanon";
-			target = 29194CF14BDE44F0B800FD211FBA9254 /* PartyCanon-PartyCanon */;
-			targetProxy = 84F06CC361C47048A975FFAE83FBAC42 /* PBXContainerItemProxy */;
+			name = "PartyCanon-framework";
+			target = 04F3AE14610095CAC6B5B0AF8F57246C /* PartyCanon-framework */;
+			targetProxy = 7E48C2000BFA4C629F741A9EF167913A /* PBXContainerItemProxy */;
 		};
-		994A8DA2D6B217314211B8C5E9B72F9C /* PBXTargetDependency */ = {
+		342DE46F14A89E10E46E9A8172C369D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PartyCanon;
-			target = E6E0156EA3342866069837AF1FAE4ACB /* PartyCanon */;
-			targetProxy = 257E172AAB281BFB9ACB3CA466C4F8A3 /* PBXContainerItemProxy */;
+			name = "PartyCanon-library";
+			target = 934043EFC3DAD281F8B87094865392E6 /* PartyCanon-library */;
+			targetProxy = 0F192E93143A3C74EB8AE7310FBC12B5 /* PBXContainerItemProxy */;
 		};
-		B54AC08884E708B0598BFE6BD72BCB77 /* PBXTargetDependency */ = {
+		682C60EA8AD04D7D71E27F55F3465164 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PartyCanon;
-			target = E6E0156EA3342866069837AF1FAE4ACB /* PartyCanon */;
-			targetProxy = 312164596CC68A189B2D504B9DFFBE51 /* PBXContainerItemProxy */;
+			name = "PartyCanon-framework-PartyCanon";
+			target = 71F0EB1AF1C64266E344EA2C68F122C4 /* PartyCanon-framework-PartyCanon */;
+			targetProxy = 987125FB08628584F28A2A2B184026F9 /* PBXContainerItemProxy */;
+		};
+		BBD070130EC420FFDC22F1B245EAC237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PartyCanon-library-PartyCanon";
+			target = 68B98189A999DE5AF476402D8BF016D3 /* PartyCanon-library-PartyCanon */;
+			targetProxy = D66D577C079C0CD676B251D32761FB3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00707224C55C179A074B80CC5EAC24F3 /* Release */ = {
+		00AE0B8E5C1F2525514B43332D41C171 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 210005AF473B3263CF25E439F6EFFAA4 /* Pods-PartyCanon_Tests.release.xcconfig */;
+			baseConfigurationReference = 77FD9DA687DC6A438A05E2DBBE197DDA /* Pods-PartyCanon_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PartyCanon_Tests/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PartyCanon_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PartyCanon_Tests/Pods-PartyCanon_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PartyCanon_Example/Pods-PartyCanon_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PartyCanon_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FAFB4393D4E2C35E4369CDA4D80B7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB133FE9B5A6239CC35F6535D7905E70 /* PartyCanon-framework.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PartyCanon-framework";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PartyCanon-framework/ResourceBundle-PartyCanon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PartyCanon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3DA751BD4477EFADD80399CABD60D0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E57A7EA6996DF726E69A35D60C2835 /* PartyCanon-library.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PartyCanon-library/PartyCanon-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3F06FE48FB20CCDF6E49227E71C6E640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA3DEB73C7B11E81D6AC7159B2F8AF1 /* Pods-PartyCanon_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PartyCanon_Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E73C0E7288720D39EF2D758D92B31E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B88874C36D6EC002D5529233623021A /* Pods-PartyCanon_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PartyCanon_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PartyCanon_Example/Pods-PartyCanon_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PartyCanon_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -520,44 +721,34 @@
 			};
 			name = Release;
 		};
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		58B50C80DAC9F846BCE4027653C135F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E57A7EA6996DF726E69A35D60C2835 /* PartyCanon-library.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PartyCanon-library/PartyCanon-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -571,11 +762,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -586,35 +780,37 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		249D795642307CA56A81263C74564E99 /* Debug */ = {
+		6FCAE5B212C068027EE7ED8429FF5086 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ECF4F2254AA1C1E1932C841AFE6A9F4 /* Pods-PartyCanon_Example.debug.xcconfig */;
+			baseConfigurationReference = BB133FE9B5A6239CC35F6535D7905E70 /* PartyCanon-framework.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PartyCanon_Example/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PartyCanon-framework/PartyCanon-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PartyCanon-framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PartyCanon_Example/Pods-PartyCanon_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PartyCanon-framework/PartyCanon-framework.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PartyCanon_Example;
+				PRODUCT_NAME = PartyCanon;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -623,23 +819,67 @@
 			};
 			name = Debug;
 		};
-		25A149964BEE9F556AF590EC30EBEDA1 /* Release */ = {
+		7FCC96230C69321FB014D6B4824E91C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9418909C13272D0BF07EF1B42A509735 /* PartyCanon.xcconfig */;
+			baseConfigurationReference = 9F4CF3236103A31F747F8C94015D3EC6 /* Pods-PartyCanon_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9554134592BE2DCAFB2925FEF15B0838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E57A7EA6996DF726E69A35D60C2835 /* PartyCanon-library.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PartyCanon-library";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PartyCanon-library/ResourceBundle-PartyCanon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PartyCanon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9677A07683AA0D9703DD84A87E01747A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB133FE9B5A6239CC35F6535D7905E70 /* PartyCanon-framework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PartyCanon/PartyCanon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PartyCanon/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PartyCanon-framework/PartyCanon-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PartyCanon-framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PartyCanon/PartyCanon.modulemap";
+				MODULEMAP_FILE = "Target Support Files/PartyCanon-framework/PartyCanon-framework.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = PartyCanon;
 				SDKROOT = iphoneos;
@@ -650,125 +890,97 @@
 			};
 			name = Release;
 		};
-		45CBCC9C88952AE80DDFA17D5440F3C9 /* Release */ = {
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9418909C13272D0BF07EF1B42A509735 /* PartyCanon.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PartyCanon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		8CE2C2F650CFEC2D6059D338EAFFEE95 /* Debug */ = {
+		EEF751227F5C2CF21AB9B91BA9BBDF49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9418909C13272D0BF07EF1B42A509735 /* PartyCanon.xcconfig */;
+			baseConfigurationReference = 68E57A7EA6996DF726E69A35D60C2835 /* PartyCanon-library.xcconfig */;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PartyCanon-library";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PartyCanon-library/ResourceBundle-PartyCanon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = PartyCanon;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		B19A9AD237E05FF11585E12F09D0AEAE /* Debug */ = {
+		F2D2E1405736B3E7AA2726A2583177C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BC3DCFF9D38C0D86E14E8ABFFD0A923 /* Pods-PartyCanon_Tests.debug.xcconfig */;
+			baseConfigurationReference = BB133FE9B5A6239CC35F6535D7905E70 /* PartyCanon-framework.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PartyCanon-framework";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PartyCanon_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PartyCanon_Tests/Pods-PartyCanon_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PartyCanon_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B439CB8F006A0ACB6CD9C426DB1D3882 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3633F8B6E7C3F798E63D4E874FCFBA2E /* Pods-PartyCanon_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PartyCanon_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PartyCanon_Example/Pods-PartyCanon_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PartyCanon_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F24340A027F3B8726C2471D5333D493F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9418909C13272D0BF07EF1B42A509735 /* PartyCanon.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PartyCanon/PartyCanon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PartyCanon/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PartyCanon/PartyCanon.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/PartyCanon-framework/ResourceBundle-PartyCanon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = PartyCanon;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BAFB08B41C93EA13E7583A1B1D14CBC /* Build configuration list for PBXNativeTarget "PartyCanon" */ = {
+		08B1E5B85316626FC46052D387B46E57 /* Build configuration list for PBXNativeTarget "PartyCanon-library-PartyCanon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F24340A027F3B8726C2471D5333D493F /* Debug */,
-				25A149964BEE9F556AF590EC30EBEDA1 /* Release */,
+				EEF751227F5C2CF21AB9B91BA9BBDF49 /* Debug */,
+				9554134592BE2DCAFB2925FEF15B0838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A6EBB5408BCB5CC85883B35F7D6B814 /* Build configuration list for PBXNativeTarget "PartyCanon-library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B50C80DAC9F846BCE4027653C135F1 /* Debug */,
+				3DA751BD4477EFADD80399CABD60D0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -776,35 +988,44 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D42B8FB2E95EFAE536D27289DE0CD7CC /* Build configuration list for PBXNativeTarget "Pods-PartyCanon_Tests" */ = {
+		72FEBBD8A87276DBD8873F897FCE62F9 /* Build configuration list for PBXNativeTarget "PartyCanon-framework-PartyCanon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B19A9AD237E05FF11585E12F09D0AEAE /* Debug */,
-				00707224C55C179A074B80CC5EAC24F3 /* Release */,
+				2FAFB4393D4E2C35E4369CDA4D80B7E7 /* Debug */,
+				F2D2E1405736B3E7AA2726A2583177C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9043E814669A19D1CDF4DF2F4F13245 /* Build configuration list for PBXNativeTarget "Pods-PartyCanon_Example" */ = {
+		C1F19120ED5FAEC54160B1AA19FC69CD /* Build configuration list for PBXNativeTarget "PartyCanon-framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				249D795642307CA56A81263C74564E99 /* Debug */,
-				B439CB8F006A0ACB6CD9C426DB1D3882 /* Release */,
+				6FCAE5B212C068027EE7ED8429FF5086 /* Debug */,
+				9677A07683AA0D9703DD84A87E01747A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD5FF74D9AAFF1D27D88AFEBB037AABB /* Build configuration list for PBXNativeTarget "PartyCanon-PartyCanon" */ = {
+		D3B85901A73FAD36BC4960F63D5620AC /* Build configuration list for PBXNativeTarget "Pods-PartyCanon_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8CE2C2F650CFEC2D6059D338EAFFEE95 /* Debug */,
-				45CBCC9C88952AE80DDFA17D5440F3C9 /* Release */,
+				00AE0B8E5C1F2525514B43332D41C171 /* Debug */,
+				4E73C0E7288720D39EF2D758D92B31E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF32572FFA775CE484DEB73E00A460FA /* Build configuration list for PBXNativeTarget "Pods-PartyCanon_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FCC96230C69321FB014D6B4824E91C7 /* Debug */,
+				3F06FE48FB20CCDF6E49227E71C6E640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

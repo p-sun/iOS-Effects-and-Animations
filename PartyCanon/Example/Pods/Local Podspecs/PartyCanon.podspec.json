@@ -1,12 +1,12 @@
 {
   "name": "PartyCanon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Add a party canon to your screen to reward your user.",
-  "description": "Party canon adds a fine tuneds CoreAnimation particle emitter to your screen and let you shoot confetti over your screen when your user does something special of for the first time. A great way to reward your user.",
+  "description": "PartyCanon adds a fine tuneds CoreAnimation particle emitter to your screen and let you shoot confetti over your screen when your user does something special of for the first time. A great way to reward your user.",
   "homepage": "https://github.com/plaetzchen/PartyCanon",
   "screenshots": [
-    "www.example.com/screenshots_1",
-    "www.example.com/screenshots_2"
+    "http://pltzchn.de/party_canon_2.png",
+    "http://pltzchn.de/party_canon_2.png"
   ],
   "license": "MIT",
   "authors": {
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/plaetzchen/PartyCanon.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "7.0"
