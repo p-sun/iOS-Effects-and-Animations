@@ -115,8 +115,7 @@
     //Set the cell’s contents property to the texture you loaded
     if (!self.particleImage) {
         NSBundle* bundle = [NSBundle bundleForClass:self.class];
-        NSString *imagePath = [bundle pathForResource:@"confetti" ofType:@"png"];
-        UIImage* image = [UIImage imageWithContentsOfFile:imagePath];
+        UIImage* image = [UIImage imageNamed:@"confetti"];
         emitterCell.contents = (__bridge id)[image CGImage];
     } else {
         emitterCell.contents = (__bridge id)[self.particleImage CGImage];
