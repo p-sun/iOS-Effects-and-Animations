@@ -1,3 +1,6 @@
 [submodule "RippleAnimation"]
 	path = RippleAnimation
 	url = https://github.com/motokiee/RippleAnimation
+[submodule "LTMorphingLabel"]
+	path = LTMorphingLabel
+	url = https://github.com/lexrus/LTMorphingLabel
