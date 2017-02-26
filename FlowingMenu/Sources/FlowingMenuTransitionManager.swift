@@ -98,7 +98,7 @@ public final class FlowingMenuTransitionManager: UIPercentDrivenInteractiveTrans
     containerView.addSubview(menuView)
 
     // Add the tap gesture
-    addTapGesture(ov) // 
+    addTapGesture(ov) // Release your finger to dismiss the animation
 
     // Add a mask to the menu to create the bubble effect
     let maskLayer       = CAShapeLayer()

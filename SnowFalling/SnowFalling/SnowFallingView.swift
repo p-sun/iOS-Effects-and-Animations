@@ -9,7 +9,7 @@
 import UIKit
 
 public let kDefaultFlakeFileName               = "snowflake"
-public let kDefaultFlakesCount                 = 100
+public let kDefaultFlakesCount                 = 200
 public let kDefaultFlakeWidth: Float           = 40.0
 public let kDefaultFlakeHeight: Float          = 46.0
 public let kDefaultMinimumSize: Float          = 0.4
