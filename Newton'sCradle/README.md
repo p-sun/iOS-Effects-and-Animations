@@ -1,6 +1,7 @@
-# iOS-Effects-and-Animations
-Researching animations and effects.
+# Newton's Cradle
 
-I went converted the projects here to Swift3 when needed, and went through all the projects and marked down the notable techniques here.
+A Swift 3 port of Apple's playground [demonstrating UIKit Dynamics](https://developer.apple.com/swift/blog/?id=35).
 
-[Overview of the projects](https://docs.google.com/document/d/1o8vU_CwZaXts3zynlMDATsCjFVncrQi6j21mDI0kVYs/edit#heading=h.u0qoia37j3uo)
+![alt text][logo]
+
+[logo]: https://github.com/p-sun/iOS-Effects-and-Animations/blob/master/Newton'sCradle/NewtonsCradleDemo.gif "Newton's Cradle from Apple"
