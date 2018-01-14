@@ -19,6 +19,7 @@
 		BB3B33DB1B4056B700B5C810 /* Pets.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3B33DA1B4056B700B5C810 /* Pets.plist */; };
 		BB3B33DD1B4064E600B5C810 /* PetCardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3B33DC1B4064E600B5C810 /* PetCardStore.swift */; };
 		BBC248791B4D8EFD00F4C642 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC248781B4D8EFD00F4C642 /* AnimationHelper.swift */; };
+		C7397CD2200BEF7700B2DE66 /* FlipPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7397CD1200BEF7700B2DE66 /* FlipPresentAnimationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BB3B33DA1B4056B700B5C810 /* Pets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pets.plist; sourceTree = "<group>"; };
 		BB3B33DC1B4064E600B5C810 /* PetCardStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCardStore.swift; sourceTree = "<group>"; };
 		BBC248781B4D8EFD00F4C642 /* AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+		C7397CD1200BEF7700B2DE66 /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		BB3B33A41B40386700B5C810 /* GuessThePet */ = {
 			isa = PBXGroup;
 			children = (
+				C7397CD3200BEF9C00B2DE66 /* Animation Controllers */,
 				BB3B33C91B40388D00B5C810 /* View controllers */,
 				BB3B33DF1B40654F00B5C810 /* Interaction controllers */,
 				BB3B33DE1B40654700B5C810 /* Animation controllers */,
@@ -151,6 +154,14 @@
 			path = "Interaction controllers";
 			sourceTree = "<group>";
 		};
+		C7397CD3200BEF9C00B2DE66 /* Animation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7397CD1200BEF7700B2DE66 /* FlipPresentAnimationController.swift */,
+			);
+			path = "Animation Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,6 +195,7 @@
 				TargetAttributes = {
 					BB3B33A11B40386700B5C810 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 66T4X4PK9Q;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -228,6 +240,7 @@
 				BB3B33DD1B4064E600B5C810 /* PetCardStore.swift in Sources */,
 				BB3B33CD1B4038ED00B5C810 /* RevealViewController.swift in Sources */,
 				BB3B33D41B403BAF00B5C810 /* PetCard.swift in Sources */,
+				C7397CD2200BEF7700B2DE66 /* FlipPresentAnimationController.swift in Sources */,
 				BBC248791B4D8EFD00F4C642 /* AnimationHelper.swift in Sources */,
 				BB3B33A81B40386700B5C810 /* AppDelegate.swift in Sources */,
 				18F4A6591F635A6D0076435C /* StoryboardSupport.swift in Sources */,
@@ -355,7 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 66T4X4PK9Q;
 				INFOPLIST_FILE = "GuessThePet/Bundle files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.$(PRODUCT_NAME:rfc1034identifier)";
@@ -369,7 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 66T4X4PK9Q;
 				INFOPLIST_FILE = "GuessThePet/Bundle files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.$(PRODUCT_NAME:rfc1034identifier)";
