@@ -19,6 +19,7 @@
 		BB3B33DB1B4056B700B5C810 /* Pets.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3B33DA1B4056B700B5C810 /* Pets.plist */; };
 		BB3B33DD1B4064E600B5C810 /* PetCardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3B33DC1B4064E600B5C810 /* PetCardStore.swift */; };
 		BBC248791B4D8EFD00F4C642 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC248781B4D8EFD00F4C642 /* AnimationHelper.swift */; };
+		C732B3FD200BFDC000598D48 /* FlipDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732B3FC200BFDC000598D48 /* FlipDismissAnimationController.swift */; };
 		C7397CD2200BEF7700B2DE66 /* FlipPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7397CD1200BEF7700B2DE66 /* FlipPresentAnimationController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		BB3B33DA1B4056B700B5C810 /* Pets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pets.plist; sourceTree = "<group>"; };
 		BB3B33DC1B4064E600B5C810 /* PetCardStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetCardStore.swift; sourceTree = "<group>"; };
 		BBC248781B4D8EFD00F4C642 /* AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+		C732B3FC200BFDC000598D48 /* FlipDismissAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipDismissAnimationController.swift; sourceTree = "<group>"; };
 		C7397CD1200BEF7700B2DE66 /* FlipPresentAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipPresentAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				C7397CD1200BEF7700B2DE66 /* FlipPresentAnimationController.swift */,
+				C732B3FC200BFDC000598D48 /* FlipDismissAnimationController.swift */,
 			);
 			path = "Animation Controllers";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C732B3FD200BFDC000598D48 /* FlipDismissAnimationController.swift in Sources */,
 				BB3B33DD1B4064E600B5C810 /* PetCardStore.swift in Sources */,
 				BB3B33CD1B4038ED00B5C810 /* RevealViewController.swift in Sources */,
 				BB3B33D41B403BAF00B5C810 /* PetCard.swift in Sources */,
