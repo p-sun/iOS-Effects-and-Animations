@@ -74,8 +74,6 @@
 			children = (
 				C7397CD3200BEF9C00B2DE66 /* Animation Controllers */,
 				BB3B33C91B40388D00B5C810 /* View controllers */,
-				BB3B33DF1B40654F00B5C810 /* Interaction controllers */,
-				BB3B33DE1B40654700B5C810 /* Animation controllers */,
 				BB3B33C81B40388A00B5C810 /* UI */,
 				BB3B33D91B40568E00B5C810 /* Data */,
 				BB3B33D21B403BA600B5C810 /* Model */,
@@ -138,20 +136,6 @@
 				BB3B33DC1B4064E600B5C810 /* PetCardStore.swift */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		BB3B33DE1B40654700B5C810 /* Animation controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Animation controllers";
-			sourceTree = "<group>";
-		};
-		BB3B33DF1B40654F00B5C810 /* Interaction controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Interaction controllers";
 			sourceTree = "<group>";
 		};
 		C7397CD3200BEF9C00B2DE66 /* Animation Controllers */ = {
