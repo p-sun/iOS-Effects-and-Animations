@@ -49,6 +49,9 @@ class CardViewController: UIViewController {
     if segueIdentifier(for: segue) == .reveal,
       let destinationViewController = segue.destination as? RevealViewController {
       destinationViewController.petCard = petCard
+      
+      // The "from" view is the "to" view's transitioningDelegate
+      destinationViewController.transitioningDelegate = self
     }
   }
   
@@ -63,3 +66,13 @@ extension CardViewController: SegueHandlerType {
   }
 }
 
+extension CardViewController: UIViewControllerTransitioningDelegate {
+  // This "from" view presents an animation controller,
+  // initialized with the frame of the current card on the "from" view.
+  func animationController(forPresented presented: UIViewController,
+                           presenting: UIViewController,
+                           source: UIViewController)
+    -> UIViewControllerAnimatedTransitioning? {
+      return FlipPresentAnimationController(originFrame: cardView.frame)
+  }
+}

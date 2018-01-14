@@ -105,9 +105,9 @@
 		BB3B33C91B40388D00B5C810 /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BB3B33CE1B4039A600B5C810 /* PageViewController.swift */,
 				BB3B33D01B4039FB00B5C810 /* CardViewController.swift */,
 				BB3B33CC1B4038ED00B5C810 /* RevealViewController.swift */,
-				BB3B33CE1B4039A600B5C810 /* PageViewController.swift */,
 			);
 			path = "View controllers";
 			sourceTree = "<group>";
